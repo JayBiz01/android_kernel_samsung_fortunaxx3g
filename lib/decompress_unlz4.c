@@ -45,6 +45,7 @@ STATIC inline int INIT unlz4(u8 *input, int in_len,
 	u8 *outp;
 	int size = in_len;
 #ifdef PREBOOT
+<<<<<<< HEAD
 	size_t out_len;
 #endif
 	size_t dest_len;
@@ -58,6 +59,12 @@ STATIC inline int INIT unlz4(u8 *input, int in_len,
 	out_len = get_unaligned_le32(input + in_len);
 #endif
 
+=======
+	size_t out_len = get_unaligned_le32(input + in_len);
+#endif
+	size_t dest_len;
+
+>>>>>>> baa30d8... lib: add support for LZ4-compressed kernel
 
 	if (output) {
 		outp = output;
