@@ -44,7 +44,6 @@ obj-$(CONFIG_ARCH_MDM9630) += clock-9630.o
 obj-$(CONFIG_ARCH_MSMZIRC) += board-zirc.o
 obj-$(CONFIG_ARCH_MDMFERRUM) += board-8909.o
 obj-$(CONFIG_MSM_PM) += ext-buck-control.o
-obj-$(CONFIG_FORCE_FAST_CHARGE) += fastchg.o
 
 CFLAGS_msm_vibrator.o += -Idrivers/staging/android
 
