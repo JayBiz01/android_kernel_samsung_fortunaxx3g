@@ -102,6 +102,7 @@ config PARIDE
 	  etc.).
 
 source "drivers/block/paride/Kconfig"
+source "drivers/block/zram/Kconfig"
 
 source "drivers/block/mtip32xx/Kconfig"
 
