@@ -96,7 +96,7 @@ name = "zinitix_isp" , addr 0x50*/
 #define ABS_PT_OFFSET			(-1)
 
 
-#define TOUCH_FORCE_UPGRADE		1
+#define TOUCH_FORCE_UPGRADE		0
 #define USE_CHECKSUM			1
 
 #define CHIP_OFF_DELAY			50 /*ms*/
