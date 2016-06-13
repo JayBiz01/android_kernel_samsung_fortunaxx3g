@@ -1353,6 +1353,7 @@ static bool ts_check_need_upgrade(struct bt541_ts_info *info,
 
 #define TC_SECTOR_SZ		8
 
+#if TOUCH_FORCE_UPGRADE
 static void ts_check_hwid_in_fatal_state(struct bt541_ts_info *info)
 {
 		//u16 flash_addr;
@@ -1431,6 +1432,7 @@ fail_check_hwid:
 		goto retry_fatal;
 	}
 }
+#endif
 static bool ts_upgrade_firmware(struct bt541_ts_info *info,
 	const u8 *firmware_data, u32 size)
 {
