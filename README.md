@@ -1,2 +1,2 @@
-# kernel_samsung_j53g
-Stock Kernel Samsung Galaxy J5 SM-J500H
+# kernel_samsung_fortunaxx3g
+Stock Kernel Samsung Galaxy Grand Prime
