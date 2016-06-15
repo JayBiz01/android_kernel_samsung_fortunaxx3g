@@ -1356,4 +1356,12 @@ config RTC_AUTO_PWRON_PARAM
           This option is used to prevent invalid RTC alarm power on.
           Say Y if you want to enable this feature.
 
+config FORCE_FAST_CHARGE
+	bool "Force AC charge mode at will"
+	default y
+	help
+		A simple sysfs interface to force adapters that
+		are detected as USB to charge as AC.
+
+
 endif
